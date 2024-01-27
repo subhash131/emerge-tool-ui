@@ -1,35 +1,40 @@
 .blue {
   border: 1px solid #126ff4;
+  box-shadow: #126ff4 0 0 10px 0;
 }
 .blue:hover {
   background-color: #126ff4;
-  box-shadow: #126ff4 0 0 150px 3px;
+  box-shadow: #126ff4 0 0 50px 3px;
 }
 .violet {
   border: 1px solid #7007cc;
+  box-shadow: #7007cc 0 0 10px 0;
 }
 .violet:hover {
   background-color: #7007cc;
-  box-shadow: #7007cc 0 0 150px 3px;
+  box-shadow: #7007cc 0 0 50px 3px;
 }
 .green {
   border: 1px solid #00d623;
+  box-shadow: #00d623 0 0 10px 0;
 }
 .green:hover {
   background-color: #00d623;
-  box-shadow: #00d623 0 0 150px 3px;
+  box-shadow: #00d623 0 0 50px 3px;
 }
 .pink {
   border: 1px solid #ec52cb;
+  box-shadow: #ec52cb 0 0 10px 0;
 }
 .pink:hover {
   background-color: #ec52cb;
-  box-shadow: #ec52cb 0 0 150px 3px;
+  box-shadow: #ec52cb 0 0 50px 3px;
 }
 .orange {
   border: 1px solid #ff6a01;
+  box-shadow: #ff6a01 0 0 10px 0;
 }
 .orange:hover {
   background-color: #ff6a01;
-  box-shadow: #ff6a01 0 0 150px 3px;
+  box-shadow: #ff6a01 0 0 50px 3px;
 }

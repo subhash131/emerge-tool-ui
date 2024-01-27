@@ -47,7 +47,7 @@ const data = [
     symbol: "2X",
     stats: "",
     description: "faster app startup time",
-    color: "green",
+    color: "blue",
   },
   {
     title: "Snapshot",
@@ -61,6 +61,6 @@ const data = [
     symbol: "5X",
     stats: "",
     description: "faster dead code detection",
-    color: "blue",
+    color: "green",
   },
 ];
