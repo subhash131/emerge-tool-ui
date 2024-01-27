@@ -47,7 +47,10 @@ const Hero = () => {
               supercharge mobile apps and the teams that build them
             </p>
           </div>
-          <Button className="px-7 pointer-events-auto" fontSize="text-lg">
+          <Button
+            className="px-10 pointer-events-auto text-base"
+            fontSize="text-base"
+          >
             Get Started
           </Button>
         </div>
