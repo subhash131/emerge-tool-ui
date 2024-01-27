@@ -3,7 +3,7 @@ import Card from "./Card";
 
 const Features = () => {
   return (
-    <div className="h-auto w-full flex flex-col items-center gap-10 pt-5">
+    <div className="h-auto w-full flex flex-col items-center gap-16 pb-10">
       <div>
         <p className="text-4xl leading-tight">A platform designed for growth</p>
       </div>
