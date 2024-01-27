@@ -53,7 +53,7 @@ const data = [
     title: "Snapshot",
     symbol: "3X",
     stats: "",
-    description: "faster testing",
+    description: "faster preview and testing",
     color: "violet",
   },
   {
