@@ -7,7 +7,7 @@ const Features = () => {
       <div>
         <p className="text-4xl leading-tight">A platform designed for growth</p>
       </div>
-      <div className="w-full h-full px-10 grid place-content-center grid-cols-5 pb-10 ">
+      <div className="w-full h-full px-20 grid place-content-center grid-cols-5 pb-10 ">
         {data.map(({ title, color, description, stats, symbol }, index) => {
           return (
             <Card
