@@ -32,7 +32,7 @@ const data = [
     title: "Size Analysis",
     symbol: ">",
     stats: "20%",
-    description: "reduction in size",
+    description: "reduction in app size",
     color: "orange",
   },
   {
