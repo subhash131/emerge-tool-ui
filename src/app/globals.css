@@ -18,3 +18,14 @@ body {
   background-color: var(--color-black);
   color: var(--color-white);
 }
+
+*::selection {
+  color: #010001;
+  background-color: white;
+}
+
+.glow {
+  box-shadow: #353757 0 0 90px 33px;
+  background-color: #353757;
+  border-radius: 9999px;
+}
