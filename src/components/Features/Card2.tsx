@@ -4,8 +4,8 @@ import Card3 from "./Card3";
 
 const Card2 = () => {
   return (
-    <div className="font-normal w-80 h-80 bg-transparent overflow-hidden relative flex-col gap-4 flex items-center justify-center">
-      <div className=" w-full h-[70%] bg-[#10121C] rounded-2xl grid place-content-center relative">
+    <div className="font-normal w-80 h-80 bg-transparent  relative flex-col gap-4 flex items-center justify-center">
+      <div className=" w-full h-[70%] border border-[#201F33] bg-[#10121C] rounded-2xl grid place-content-center relative overflow-hidden">
         <div className="w-28 h-28 glow shadow-[#1D1E34] bg-gradient-to-b from-[#11111D] to-[#201848] rounded-full border border-[#201F33] flex justify-center items-center">
           <Image
             width={100}
