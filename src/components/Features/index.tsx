@@ -17,6 +17,7 @@ const Features = () => {
               symbol={symbol}
               title={title}
               key={`feat-${index}`}
+              index={index}
             />
           );
         })}

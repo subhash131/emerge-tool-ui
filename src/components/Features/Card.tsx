@@ -8,6 +8,7 @@ type FeatureCardType = {
   stats: string;
   description: string;
   color: string;
+  index: number;
 };
 
 const Card = ({
@@ -16,6 +17,7 @@ const Card = ({
   stats,
   description,
   color,
+  index,
 }: FeatureCardType) => {
   return (
     <div

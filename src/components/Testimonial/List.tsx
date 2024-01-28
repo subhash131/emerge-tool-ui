@@ -24,7 +24,7 @@ const brands = [
 const List = ({ reverse }: { reverse?: boolean }) => {
   return (
     <ul
-      className={`inline-block text-lg p-10 items-center ${
+      className={`inline-block text-lg p-10 items-center select-none ${
         reverse ? styles.logo_slide_reverse : styles.logo_slide
       }`}
     >
@@ -42,6 +42,7 @@ const List = ({ reverse }: { reverse?: boolean }) => {
                 alt={item}
                 width={100}
                 height={100}
+                draggable={false}
               />
             </li>
           );
