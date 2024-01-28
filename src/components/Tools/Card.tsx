@@ -39,7 +39,7 @@ const Card = ({
             }`
       }`}
     >
-      <div className="flex w-full whitespace-nowrap flex-col ">
+      <div className="flex w-full whitespace-nowrap flex-col text-start">
         <p className="py-4 font-extrabold text-lg ">{title}</p>
         <div className="flex items-center mt-12">
           <p className="text-8xl">{symbol}</p>
