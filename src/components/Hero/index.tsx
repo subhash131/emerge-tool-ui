@@ -16,26 +16,30 @@ const Hero = () => {
           className="w-[80%] ml-32 h-[65%] select-none"
         />
       </div>
-      {/* <div className="w-full h-full flex justify-between absolute z-10">
-        <div className="w-96 h-full relative">
+      <div className="w-full h-full flex justify-between absolute z-10">
+        <div className="w-96 h-full relative  blur-sm">
           <Image
-            src="/assets/prism.webp"
+            src="/assets/features/apple.svg"
             width={100}
             height={100}
             alt="background image"
-            className=" absolute left-40 top-56"
+            className="absolute left-20 top-48 -rotate-12"
           />
+          <Scaling size={44} className="absolute right-20 top-10 rotate-12" />
+          <Rocket size={44} className="absolute right-20 bottom-44 " />
         </div>
-        <div className="w-96 h-full relative">
+        <div className="w-96 h-full relative  blur-sm">
           <Image
-            src="/assets/phone_scan.png"
-            width={200}
-            height={200}
-            alt="background image"
-            className=" absolute right-64 top-56"
+            src="/assets/features/android.svg"
+            width={100}
+            height={100}
+            alt="android image"
+            className="absolute right-20 top-48 rotate-12"
           />
+          <Drum size={44} className="absolute left-20 top-10 -rotate-6" />
+          <GitCompareArrows size={44} className="absolute left-20 bottom-44" />
         </div>
-      </div> */}
+      </div>
       <div className="w-full h-full gap-24 flex justify-center flex-col items-center absolute z-30 ">
         <div className="w-[40rem] h-[18rem] relative flex flex-col gap-16 -mt-32 text-center">
           <div className="flex flex-col gap-4 items-center ">
