@@ -1,7 +1,7 @@
 import React from "react";
 import Card from "./Card";
 
-const Features = () => {
+const Tools = () => {
   return (
     <div className="h-auto w-full flex flex-col items-center gap-16 pb-10">
       <div>
@@ -26,7 +26,7 @@ const Features = () => {
   );
 };
 
-export default Features;
+export default Tools;
 
 const data = [
   {
