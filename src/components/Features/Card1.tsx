@@ -63,9 +63,9 @@ const Card1 = () => {
           draggable={false}
         />
       </div>
-      <div className="bottom-1 absolute text-left w-[80%]">
-        <p className="font-normal text-xl">
-          Seamlessly integrate <br /> with all your tools
+      <div className="bottom-1 absolute text-left w-full px-4">
+        <p className="font-normal text-base">
+          Full native cross-platform support for iOS & Android
         </p>
       </div>
     </div>
