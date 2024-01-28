@@ -20,7 +20,7 @@ const Navbar = () => {
         Emerge Tools
       </div>
       <div className="flex gap-10 ">
-        <ul className="flex gap-2 text-xs items-center ">
+        <ul className="flex gap-2 text-xs items-center max-md:hidden">
           {items.map((item, index) => {
             return (
               <li

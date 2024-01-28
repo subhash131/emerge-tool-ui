@@ -6,7 +6,7 @@ import Features from "@/components/Features";
 
 export default function Home() {
   return (
-    <main className="w-screen overflow-hidden">
+    <main className="w-screen overflow-hidden flex flex-col items-center">
       <Hero />
       <Tools />
       <Testimonials />

@@ -3,11 +3,13 @@ import Card from "./Card";
 
 const Tools = () => {
   return (
-    <div className="h-auto w-full flex flex-col items-center gap-16 pb-10">
+    <div className="h-auto w-full flex flex-col items-center text-center gap-16 pb-10">
       <div>
-        <p className="text-4xl leading-tight">A platform designed for growth</p>
+        <p className="text-4xl leading-tight max-md:text-2xl">
+          A platform designed for growth
+        </p>
       </div>
-      <div className="w-full h-full px-20 grid place-content-center grid-cols-5 pb-10 ">
+      <div className="w-full h-full px-20 grid place-content-center grid-cols-5 pb-10 max-lg:flex-col max-lg:flex max-lg:items-center">
         {data.map(({ title, color, description, stats, symbol }, index) => {
           return (
             <Card

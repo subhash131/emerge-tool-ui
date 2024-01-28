@@ -13,7 +13,7 @@ const Hero = () => {
           width={100}
           height={100}
           alt="background image"
-          className="w-[80%] ml-32 h-[65%] select-none"
+          className="w-[80%] ml-32 h-[65%] select-none max-md:w-full"
         />
       </div>
       <div className="w-full h-full flex justify-between absolute z-10">
@@ -23,10 +23,13 @@ const Hero = () => {
             width={100}
             height={100}
             alt="background image"
-            className="absolute left-20 top-48 -rotate-12"
+            className="absolute left-[20%] top-[40%] -rotate-12"
           />
-          <Scaling size={44} className="absolute right-20 top-10 rotate-12" />
-          <Rocket size={44} className="absolute right-20 bottom-44 " />
+          <Scaling
+            size={44}
+            className="absolute right-[20%] top-[5%] rotate-12"
+          />
+          <Rocket size={44} className="absolute right-[20%] bottom-[20%]" />
         </div>
         <div className="w-96 h-full relative  blur-sm">
           <Image
@@ -34,19 +37,22 @@ const Hero = () => {
             width={100}
             height={100}
             alt="android image"
-            className="absolute right-20 top-48 rotate-12"
+            className="absolute right-[20%] top-[40%] rotate-12"
           />
-          <Drum size={44} className="absolute left-20 top-10 -rotate-6" />
-          <GitCompareArrows size={44} className="absolute left-20 bottom-44" />
+          <Drum size={44} className="absolute left-[20%] top-[5%] -rotate-6 " />
+          <GitCompareArrows
+            size={44}
+            className="absolute left-[20%] bottom-[20%]"
+          />
         </div>
       </div>
       <div className="w-full h-full gap-24 flex justify-center flex-col items-center absolute z-30 ">
-        <div className="w-[40rem] h-[18rem] relative flex flex-col gap-16 -mt-32 text-center">
-          <div className="flex flex-col gap-4 items-center ">
-            <p className="text-6xl leading-tight">
+        <div className="w-[40rem] h-[18rem] relative flex flex-col gap-16 -mt-32 text-center max-md:w-[20rem]">
+          <div className="flex flex-col gap-4 max-md:gap-10 items-center ">
+            <p className="text-6xl leading-tight max-md:text-3xl">
               Join the future of mobile development
             </p>
-            <p className="text-xs w-96 leading-4">
+            <p className="text-xs w-96 leading-4 max-md:w-72">
               Emerge Tools is a suite of revolutionary products designed to
               supercharge mobile apps and the teams that build them
             </p>
@@ -59,7 +65,7 @@ const Hero = () => {
           </Button>
         </div>
         <div
-          className={` overflow-hidden relative w-[calc(100px*5)]  before:bg-gradient-linear-to-r before:h-full before:w-[15%] before:z-10 before:absolute before:-right-1 before:top-0 after:absolute after:w-[15%] after:h-full after:bg-gradient-linear-to-l after:z-10 after:top-0 after:left-0 whitespace-nowrap flex items-center h-5 ${styles.slide_wrap}`}
+          className={` overflow-hidden relative w-[calc(100px*5)] max-md:w-[calc(50px*5)] before:bg-gradient-linear-to-r before:h-full before:w-[15%] before:z-10 before:absolute before:-right-4 before:top-0 after:absolute after:w-[15%] after:h-full after:bg-gradient-linear-to-l after:z-10 after:top-0 after:-left-4 whitespace-nowrap flex items-center h-5 ${styles.slide_wrap}`}
         >
           <ul
             className={`inline-block text-xs items-center ${styles.logo_slide}`}

@@ -5,7 +5,7 @@ import Card3 from "./Card3";
 
 const Features = () => {
   return (
-    <div className="mt-32 flex gap-20 px-28">
+    <div className="mt-32 flex xl:gap-20 max-md:flex-col max-md:px-20 max-md:gap-4 items-center max-lg:flex-col gap-4">
       <Card1 />
       <div className="flex flex-col gap-2">
         <Card3>Customizable slack alerting</Card3>
