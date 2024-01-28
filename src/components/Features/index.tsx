@@ -10,7 +10,7 @@ const Features = () => {
       <div className="flex flex-col gap-2">
         <Card3>Customizable slack alerting</Card3>
         <Card3>Accurately measure performance metrics</Card3>
-        <Card3>API access to raw performance data</Card3>
+        <Card3>API access to raw size and performance data</Card3>
         <Card3>Run a performance comparison of any two builds</Card3>
       </div>
       <Card2 />
