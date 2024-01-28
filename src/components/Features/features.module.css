@@ -1,6 +1,7 @@
 .blue {
   border: 1px solid #126ff4;
   box-shadow: #126ff4 0 0 10px 0;
+  margin-top: 1rem;
 }
 .blue:hover {
   background-color: #126ff4;
@@ -11,6 +12,7 @@
 .violet {
   border: 1px solid #7007cc;
   box-shadow: #7007cc 0 0 10px 0;
+  margin-top: 1.5rem;
 }
 .violet:hover {
   background-color: #7007cc;
@@ -21,6 +23,7 @@
 .green {
   border: 1px solid #00d623;
   box-shadow: #00d623 0 0 10px 0;
+  margin-top: 2rem;
 }
 .green:hover {
   background-color: #00d623;
@@ -31,6 +34,7 @@
 .pink {
   border: 1px solid #ec52cb;
   box-shadow: #ec52cb 0 0 10px 0;
+  margin-top: 0.5rem;
 }
 .pink:hover {
   background-color: #ec52cb;
