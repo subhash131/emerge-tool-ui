@@ -2,7 +2,13 @@ import Image from "next/image";
 import React from "react";
 import Button from "../Button";
 import styles from "./hero.module.css";
-import { Drum, GitCompareArrows, Rocket, Scaling, Skull } from "lucide-react";
+import {
+  BarChart3,
+  GitCompareArrows,
+  Rocket,
+  Scaling,
+  Skull,
+} from "lucide-react";
 
 const Hero = () => {
   return (
@@ -39,7 +45,10 @@ const Hero = () => {
             alt="android image"
             className="absolute right-[20%] top-[40%] rotate-12"
           />
-          <Drum size={44} className="absolute left-[20%] top-[5%] -rotate-6 " />
+          <BarChart3
+            size={44}
+            className="absolute left-[20%] top-[5%] -rotate-6 "
+          />
           <GitCompareArrows
             size={44}
             className="absolute left-[20%] bottom-[20%]"
@@ -76,7 +85,7 @@ const Hero = () => {
                 Size Analysis
               </li>
               <li className="flex gap-1">
-                <Drum size={16} strokeWidth={1} />
+                <BarChart3 size={16} strokeWidth={1} />
                 Performance Analysis
               </li>
               <li className="flex gap-1">
@@ -102,7 +111,7 @@ const Hero = () => {
                 Size Analysis
               </li>
               <li className="flex gap-1">
-                <Drum size={16} strokeWidth={1} />
+                <BarChart3 size={16} strokeWidth={1} />
                 Performance Analysis
               </li>
               <li className="flex gap-1">
