@@ -1,6 +1,6 @@
 import { ArrowRight } from "lucide-react";
 import React from "react";
-import styles from "./features.module.css";
+import styles from "./tools.module.css";
 
 type FeatureCardType = {
   title: string;
