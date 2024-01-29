@@ -13,13 +13,13 @@ const items = [
 
 const Navbar = () => {
   return (
-    <div
-      className="w-full h-20 flex items-center px-8 justify-between backdrop-blur-sn bg-black text-sm fixed top-0 z-50"
-      onClick={() => {
-        toast.error("This demo app doesn't respond to clicks.");
-      }}
-    >
-      <div className="py-2 border border-[#616160] relative px-6 bg-black cursor-pointer select-none">
+    <div className="w-full h-20 flex items-center px-8 justify-between backdrop-blur-sn bg-black text-sm fixed top-0 z-50">
+      <div
+        className="py-2 border border-[#616160] relative px-6 bg-black cursor-pointer select-none"
+        onClick={() => {
+          toast.error("This demo app doesn't respond to clicks.");
+        }}
+      >
         <div className="w-1 h-1 rounded-full bg-white absolute -top-[0.2rem] -left-[0.2rem]"></div>
         <div className="w-1 h-1 rounded-full bg-white absolute -top-[0.2rem] -right-[0.2rem]"></div>
         <div className="w-1 h-1 rounded-full bg-white absolute -bottom-[0.2rem] -right-[0.2rem]"></div>
@@ -34,6 +34,9 @@ const Navbar = () => {
                 className="p-2 pointer-events-auto cursor-wait"
                 key={`nav-${index}`}
                 style={{ cursor: "pointer" }}
+                onClick={() => {
+                  toast.error("This demo app doesn't respond to clicks.");
+                }}
               >
                 {item}
               </li>
