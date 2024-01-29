@@ -10,7 +10,7 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Emerge Tool",
+  title: "Emerge Tools",
   description: "Created by subhash",
 };
 
