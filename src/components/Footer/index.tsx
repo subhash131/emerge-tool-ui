@@ -3,7 +3,7 @@ import React from "react";
 const Footer = () => {
   const date = new Date();
   return (
-    <div className="w-full min-h-14 px-10 text-gray-400 mt-10 text-sm ">
+    <div className="w-full min-h-14 px-10 text-gray-400 mt-20 text-sm">
       <hr className="border border-[#616160]" />
       <div className="h-full w-full flex items-center px-6 py-4 justify-between max-md:flex-col max-md:gap-4 max-md:items-start max-md:pb-10">
         <p>
