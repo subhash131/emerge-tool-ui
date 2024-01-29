@@ -19,7 +19,7 @@ const Card1 = () => {
           height={100}
           alt="thunder"
           src="/assets/features/thunder.svg"
-          className="w-12 h-12 z-50"
+          className="w-12 h-12 "
           draggable={false}
         />
       </div>
@@ -29,7 +29,7 @@ const Card1 = () => {
           height={100}
           alt="javascript"
           src="/assets/features/javascript.svg"
-          className="w-5 h-5 object-cover z-50"
+          className="w-5 h-5 object-cover "
           draggable={false}
         />
       </div>
@@ -39,7 +39,7 @@ const Card1 = () => {
           height={100}
           alt="android"
           src="/assets/features/android.svg"
-          className="w-6 h-6 object-cover z-50"
+          className="w-6 h-6 object-cover "
           draggable={false}
         />
       </div>
@@ -49,7 +49,7 @@ const Card1 = () => {
           height={100}
           alt="apple"
           src="/assets/features/apple.svg"
-          className="w-8 h-8 object-cover z-50"
+          className="w-8 h-8 object-cover "
           draggable={false}
         />
       </div>
@@ -59,7 +59,7 @@ const Card1 = () => {
           height={100}
           alt="aws"
           src="/assets/features/aws.svg"
-          className="w-14 h-14 object-cover z-50"
+          className="w-14 h-14 object-cover "
           draggable={false}
         />
       </div>
