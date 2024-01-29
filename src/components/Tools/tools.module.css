@@ -6,7 +6,7 @@
 .blue:hover {
   background-color: #126ff4;
   box-shadow: #126ff4 0 0 50px 3px;
-  z-index: 100;
+  z-index: 1;
   scale: 1.1;
 }
 .violet {
@@ -17,7 +17,7 @@
 .violet:hover {
   background-color: #7007cc;
   box-shadow: #7007cc 0 0 50px 3px;
-  z-index: 100;
+  z-index: 1;
   scale: 1.1;
 }
 .green {
@@ -28,7 +28,7 @@
 .green:hover {
   background-color: #00d623;
   box-shadow: #00d623 0 0 50px 3px;
-  z-index: 100;
+  z-index: 1;
   scale: 1.1;
 }
 .pink {
@@ -39,7 +39,7 @@
 .pink:hover {
   background-color: #ec52cb;
   box-shadow: #ec52cb 0 0 50px 3px;
-  z-index: 100;
+  z-index: 1;
   scale: 1.1;
 }
 .orange {
@@ -49,6 +49,6 @@
 .orange:hover {
   background-color: #ff6a01;
   box-shadow: #ff6a01 0 0 50px 3px;
-  z-index: 100;
+  z-index: 1;
   scale: 1.1;
 }
