@@ -1,5 +1,7 @@
+"use client";
 import React from "react";
 import styles from "./button.module.css";
+import toast from "react-hot-toast";
 
 type ButtonProps = {
   children: React.ReactNode;
@@ -8,7 +10,14 @@ type ButtonProps = {
   fontSize?: string;
 };
 
-const Button = ({ children, onClick, className, fontSize }: ButtonProps) => {
+const Button = ({
+  children,
+  onClick = () => {
+    toast.error("This demo app doesn't respond to clicks");
+  },
+  className,
+  fontSize,
+}: ButtonProps) => {
   return (
     <div className="relative place-content-center grid ">
       <div

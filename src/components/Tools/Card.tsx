@@ -1,6 +1,8 @@
+"use client";
 import { ArrowRight } from "lucide-react";
 import React from "react";
 import styles from "./tools.module.css";
+import toast from "react-hot-toast";
 
 type FeatureCardType = {
   title: string;
@@ -38,6 +40,9 @@ const Card = ({
                   }`
             }`
       }`}
+      onClick={() => {
+        toast.error("This demo app doesn't respond to clicks");
+      }}
     >
       <div className="flex w-full whitespace-nowrap flex-col text-start">
         <p className="py-4 font-extrabold text-lg ">{title}</p>
