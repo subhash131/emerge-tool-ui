@@ -19,7 +19,7 @@ const Hero = () => {
           width={100}
           height={100}
           alt="background image"
-          className="w-[80%] ml-32 h-[65%] select-none max-md:w-full"
+          className="w-[80%] ml-32 h-[65%] select-none max-md:w-full max-md:ml-10"
         />
       </div>
       <div className="w-full h-full flex justify-between absolute z-10">
@@ -29,7 +29,7 @@ const Hero = () => {
             width={100}
             height={100}
             alt="background image"
-            className="absolute left-[20%] top-[40%] -rotate-12"
+            className="absolute left-[20%] top-[40%] -rotate-12 max-md:left-0"
           />
           <Scaling
             size={44}
@@ -43,7 +43,7 @@ const Hero = () => {
             width={100}
             height={100}
             alt="android image"
-            className="absolute right-[20%] top-[40%] rotate-12"
+            className="absolute right-[20%] top-[40%] rotate-12 max-md:right-0"
           />
           <BarChart3
             size={44}
