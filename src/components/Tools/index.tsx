@@ -41,8 +41,8 @@ const data = [
   {
     title: "Performance Analysis",
     symbol: ">",
-    stats: "14.6%",
-    description: "decrease in app launch time",
+    stats: "40.6%",
+    description: "increase in app performance",
     color: "pink",
   },
   {
