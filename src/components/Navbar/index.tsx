@@ -20,10 +20,6 @@ const Navbar = () => {
           toast.error("This demo app doesn't respond to clicks.");
         }}
       >
-        <div className="w-1 h-1 rounded-full bg-white absolute -top-[0.2rem] -left-[0.2rem]"></div>
-        <div className="w-1 h-1 rounded-full bg-white absolute -top-[0.2rem] -right-[0.2rem]"></div>
-        <div className="w-1 h-1 rounded-full bg-white absolute -bottom-[0.2rem] -right-[0.2rem]"></div>
-        <div className="w-1 h-1 rounded-full bg-white absolute -bottom-[0.2rem] -left-[0.2rem]"></div>
         Emerge Tools
       </div>
       <div className="flex gap-10 ">
